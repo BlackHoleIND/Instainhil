@@ -60,14 +60,61 @@ section.loker span.info{
 }
 
 .card .card-body a{
-	color: #222;
+	color: #212b1a;
 }
 
 .card .card-body a:hover{
 	color: #007bff;
 }
 
-footer {
+.footer {
 	background-color: #007bff;
+	color : white;
 	margin-top: 100px;
+}
+
+.footer p span{
+	font-weight: bold;
+}
+
+.footer p{
+	font-weight: 600;
+	font-size: 0.8em;
+}
+
+.footer .media-social i{
+	color: white;
+	font-weight: 400;
+	font-size: 2.5em;
+	margin-right: 15px;
+}
+
+.media-social .fa-facebook-square:hover {
+	color: #3b5998;
+}
+.media-social .fa-instagram:hover {
+	background: -webkit-linear-gradient(red, blue);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.media-social .fa-youtube-square:hover {
+	color: #bb0000;
+}
+.media-social .fa-twitter-square:hover {
+	color: #00aced;
+}
+
+.nav-footer {
+	background-color: yellow;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.nav-footer .nav-link {
+	color: #212b1a;
+	margin-left: -25px;
+} 
+
+.nav-footer .nav-link:hover {
+	color: #007bff;
 }
