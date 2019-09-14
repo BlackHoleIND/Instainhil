@@ -74,11 +74,11 @@ section span.info{
 	text-transform: uppercase;
 }
 
-.berita a, .event a, .loker a, .belanja a{
+.card-body a{
 	color: #212b1a;
 }
 
-.berita a:hover, .event a:hover, .loker a:hover, .belanja a:hover{
+.card-body a:hover{
 	color: #007bff;
 	text-decoration: none;
 }
@@ -147,7 +147,7 @@ section span.info{
 	}
 
 	.jumbotron .display-4, p.lead, .input-group{
-		font-weight: 00;
+		font-weight: 600;
 		transform: translateY(130px);
 	}
 }
