@@ -1,3 +1,40 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
 
+body h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+}
 
+.nav-item a{
+	margin-right: 10px;
+}
 
+.nav-item.active{
+	font-weight: 600;
+}
+
+.carousel-item{
+  height: 90vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item .carousel-caption a{
+	color: #ccc;
+	border: none;
+}
+
+.carousel-caption h5{
+	margin-bottom: 20px;
+	text-shadow: 1px 1px 0.5px black;
+}
+
+.carousel-caption:hover h5{
+	color: white;
+	margin-bottom: 25px;
+}
