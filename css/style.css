@@ -1,10 +1,14 @@
 body {
-	background-color: #eee;
+	background-color: #e4e4e4;
 	font-family: 'Montserrat', sans-serif;
 }
 
 body h1,h2,h3,h4,h5,h6{
 	font-weight: bold;
+}
+
+.navbar-brand img{
+	width: 150px;
 }
 
 .nav-item a{
@@ -13,6 +17,19 @@ body h1,h2,h3,h4,h5,h6{
 
 .nav-item.active{
 	font-weight: 600;
+}
+
+.jumbotron{
+	background-position: center;
+	background-size: cover;
+	color: white;
+	height: 100vh;
+	text-shadow: 2px 2px 0.8px #222;
+}
+
+.jumbotron .display-4, p.lead, .input-group{
+	font-weight: 600;
+	transform: translateY(150px);
 }
 
 .carousel-item{
@@ -72,6 +89,11 @@ section span.info{
 	margin-top: 100px;
 }
 
+.footer img{
+	width: 150px;
+	margin-bottom: 5px;
+}
+
 .footer p{
 	font-weight: 600;
 	font-size: 0.8em;
@@ -112,4 +134,20 @@ section span.info{
 
 .nav-footer .nav-link:hover {
 	color: #007bff;
+}
+
+@media (max-width: 800px){
+	
+	.jumbotron .display-4{
+		font-size: 2.0em;
+	}
+
+	.jumbotron p.lead{
+		font-size: 1.0em;
+	}
+
+	.jumbotron .display-4, p.lead, .input-group{
+		font-weight: 00;
+		transform: translateY(130px);
+	}
 }
