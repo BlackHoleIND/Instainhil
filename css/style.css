@@ -27,9 +27,9 @@ body h1,h2,h3,h4,h5,h6{
 	text-shadow: 2px 2px 0.8px #222;
 }
 
-.jumbotron .display-4, p.lead, .input-group{
+.jumbotron .display-4{
 	font-weight: 600;
-	transform: translateY(150px);
+	margin-top: 150px;
 }
 
 .carousel-item{
@@ -146,8 +146,8 @@ section span.info{
 		font-size: 1.0em;
 	}
 
-	.jumbotron .display-4, p.lead, .input-group{
+	.jumbotron .display-4{
 		font-weight: 600;
-		transform: translateY(130px);
+		margin-top: 130px;
 	}
 }
