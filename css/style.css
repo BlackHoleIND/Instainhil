@@ -76,12 +76,32 @@ section span.info{
 }
 
 .card-body a{
-	color: #212b1a;
+	color: #212529;
 }
 
 .card-body a:hover{
 	color: #006eb6;
 	text-decoration: none;
+}
+
+.page-item a{
+	color: #006eb6;
+}
+
+.page-item.active a{
+	background-color: #006eb6 !important;
+	border-color: #006eb6 !important;
+}
+
+.page .judul::after{
+	content: '';
+	display: block;
+	position: relative;
+	height: 5px;
+	width: 250px;
+	margin: 5px auto;
+	background-color: #212529;
+	border-radius: 25px;
 }
 
 .footer {
@@ -129,7 +149,7 @@ section span.info{
 }
 
 .nav-footer .nav-link {
-	color: #212b1a;
+	color: #212529;
 	margin-left: -25px;
 } 
 
