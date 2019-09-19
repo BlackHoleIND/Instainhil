@@ -7,6 +7,10 @@ body h1,h2,h3,h4,h5,h6{
 	font-weight: bold;
 }
 
+.navbar {
+	background-color: #006eb6;
+}
+
 .navbar-brand img{
 	width: 150px;
 }
@@ -15,7 +19,8 @@ body h1,h2,h3,h4,h5,h6{
 	margin-right: 10px;
 }
 
-.nav-item.active{
+.nav-item.active a{
+	color: #ffce22 !important;
 	font-weight: 600;
 }
 
@@ -29,32 +34,12 @@ body h1,h2,h3,h4,h5,h6{
 
 .jumbotron .display-4{
 	font-weight: 600;
-	margin-top: 150px;
+	margin-top: 110px
 }
 
-.carousel-item{
-  height: 90vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.carousel-item .carousel-caption a{
-	color: #ccc;
-	text-decoration: none;
-}
-
-.carousel-caption h5{
-	margin-bottom: 20px;
-	text-shadow: 1px 1px 0.5px black;
-}
-
-.carousel-caption:hover h5{
+.jumbotron button{
+	background-color: #006eb6;
 	color: white;
-	transform: translateY(-5px);
 }
 
 .tombol{
@@ -63,14 +48,30 @@ body h1,h2,h3,h4,h5,h6{
 	text-transform: uppercase;
 }
 
+.tombol-outline{
+	color: #006eb6;
+	border-color: #006eb6;
+	border-radius: 35px;
+	font-weight: 600;
+	width: 250px;
+	padding: 5px 0;
+	text-transform: uppercase;
+}
+
+.tombol-outline:hover {
+	background-color: #006eb6;
+	border-color: #006eb6;
+}
+
 section span.info{
 	color: white;
 	font-weight: 600;
 	padding: 5px 0;
+	margin: 100px auto 5px;
 	text-align: center;
-	width: 300px;
+	width: 250px;
 	border-radius: 35px;
-	background-color: #007bff;
+	background-color: #006eb6;
 	text-transform: uppercase;
 }
 
@@ -79,12 +80,12 @@ section span.info{
 }
 
 .card-body a:hover{
-	color: #007bff;
+	color: #006eb6;
 	text-decoration: none;
 }
 
 .footer {
-	background-color: #007bff;
+	background-color: #006eb6;
 	color: white;
 	margin-top: 100px;
 }
@@ -122,7 +123,7 @@ section span.info{
 }
 
 .nav-footer {
-	background-color: yellow;
+	background-color: #ffce22;
 	font-weight: 600;
 	font-size: 15px;
 }
@@ -133,21 +134,18 @@ section span.info{
 } 
 
 .nav-footer .nav-link:hover {
-	color: #007bff;
+	color: #006eb6;
 }
 
-@media (max-width: 800px){
-	
+@media (max-width: 992px){
+
 	.jumbotron .display-4{
-		font-size: 2.0em;
+		font-size: 3.0em;
+		font-weight: 600;
+		margin-top: 110px;
 	}
 
 	.jumbotron p.lead{
 		font-size: 1.0em;
-	}
-
-	.jumbotron .display-4{
-		font-weight: 600;
-		margin-top: 130px;
 	}
 }
